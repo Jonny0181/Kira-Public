@@ -67,8 +67,7 @@ load_modules = (
     'modules.sounds',
     'modules.rndstatus',
     'modules.logs',
-    'modules.errorhandler',
-    'modules.dbl')
+    'modules.errorhandler')
 
 starttime = datetime.datetime.now()
 
