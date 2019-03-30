@@ -1,0 +1,10 @@
+git+https://github.com/JonnyBoy2000/Lavalink.py
+git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
+git+https://github.com/Gorialis/jishaku
+pyyaml
+motor
+psutil
+lxml
+speedtest-cli
+dblpy
+dhooks
