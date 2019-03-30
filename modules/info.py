@@ -355,7 +355,8 @@ class Info(commands.Cog):
         b = base64.b64decode(b)
         b = int(codecs.encode(b, 'hex'), 16)
         cdate = f"{datetime.datetime.fromtimestamp(b + 1293840000)}"
-        owner = self.bot.get_user(self.bot.owner_id)
+        dev = await sekf.bot.http.get_user_info(170619078401196032)
+        devn = f"{dev['username']}#{dev['discriminator']}"
         for path, subdirs, files in os.walk('.'):
             for name in files:
                 if name.endswith('.py'):
@@ -370,7 +371,7 @@ class Info(commands.Cog):
         e = discord.Embed()
         e.colour = 0x36393E
         e.add_field(name="Helpfull Links:", value=f"[Invite]({invl}) | [Support]({spl})")
-        e.add_field(name="Developer:", value=owner)
+        e.add_field(name="Developer:", value=devn)
         e.add_field(name="Libraries:", value=f"{discordi}\n{python}")
         e.add_field(name="Date created:", value=cdate)
         e.add_field(name="Code Information:", value=code)
