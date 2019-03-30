@@ -73,6 +73,8 @@ cd Lavalink && wget https://github.com/Frederikam/Lavalink/releases/download/3.2
 ```
 10) Start a screen session, press enter, and type the following command to startup the Lavalink server for music.
 ```sh
+screen
+(press enter)
 sudo java -jar Lavalink.jar
 ```
 11) Disconnect from the screen session by pressing ctrl+A+D
