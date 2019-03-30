@@ -53,7 +53,7 @@ You should be able to get one here. https://developer.spotify.com/web-api/
 ```
 5) Clone the repo
 ```sh
-git clone git@github.com:JonnyBoy2000/Kira-Miki.git
+git clone git@github.com:JonnyBoy2000/Kira-Public.git
 ```
 6) Move into the bots directory
 ```sh
@@ -64,12 +64,16 @@ cd Kira-Miki
 sudo python3.6 -m pip install -r requirements.txt
 ```
 8) Rename `config_exmaple.yml` to `config.yml` and set prefix as the prefix you want, and token as your bots token.
-9) Start a screen session, press enter, and type the following command to startup the Lavalink server for music.
+9) Run this command to download the Lavalink.jar file.
 ```sh
-cd Lavalink && sudo java -jar Lavalink.jar
+cd Lavalink && wget https://github.com/Frederikam/Lavalink/releases/download/3.2.0.3/Lavalink.jar
 ```
-10) Disconnect from the screen session by pressing ctrl+A+D
-11) Now you should be able to run the bot! Just type the following command! 
+10) Start a screen session, press enter, and type the following command to startup the Lavalink server for music.
+```sh
+sudo java -jar Lavalink.jar
+```
+11) Disconnect from the screen session by pressing ctrl+A+D
+12) Now you should be able to run the bot! Just type the following command! 
 ```sh
 cd .. && python3.6 kira.py
 ```
