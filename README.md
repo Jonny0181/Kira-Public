@@ -53,7 +53,7 @@ You should be able to get one here. https://developer.spotify.com/web-api/
 ```
 5) Clone the repo
 ```sh
-git clone git@github.com:JonnyBoy2000/Kira-Public.git
+git clone https://github.com/JonnyBoy2000/Kira-Public
 ```
 6) Move into the bots directory
 ```sh
