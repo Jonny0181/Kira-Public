@@ -57,7 +57,7 @@ git clone https://github.com/JonnyBoy2000/Kira-Public
 ```
 6) Move into the bots directory
 ```sh
-cd Kira-Miki
+cd Kira-Public
 ```
 7) Install requirements
 ```sh
