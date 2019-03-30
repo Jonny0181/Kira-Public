@@ -5,7 +5,6 @@ import random
 import datetime
 import string
 import asyncio
-import aiohttp
 import json
 import textwrap
 import async_timeout
