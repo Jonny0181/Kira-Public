@@ -208,8 +208,6 @@ class KiraMiki(commands.AutoShardedBot):
         for module in load_modules:
             self.unload_extension(module)
             self.logger.info(f"[MODULE UNLOAD] Unloaded {module}!")
-        channel = self.get_channel(550121953462059008)
-        await channel.send("I am restarting! I will be on in 5-10 seconds. <:hehe:559653967836086274>")
         await self.session.close()
         await self.logout()
 
