@@ -64,6 +64,9 @@ cd Kira-Public
 sudo python3.6 -m pip install -r requirements.txt
 ```
 8) Rename `config_exmaple.yml` to `config.yml` and set prefix as the prefix you want, and token as your bots token.
+```sh
+mv config_exmaple.yml config.yml
+```
 9) Run this command to download the Lavalink.jar file.
 ```sh
 cd Lavalink && wget https://github.com/Frederikam/Lavalink/releases/download/3.2.0.3/Lavalink.jar
