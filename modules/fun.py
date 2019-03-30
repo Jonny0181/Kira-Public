@@ -284,51 +284,7 @@ class Fun(commands.Cog):
             else:
                 await msg.delete()
                 await ctx.send(random.choice(live))
-
-    @commands.Cog.listener()
-    async def on_raw_reaction_add(self, payload):
-        if not payload.guild_id:
-            return
-        guildid = 538770375266533408
-        roleid = 561076933920817162
-        channelid = 541560087848681475
-        msgid = 561079911557890048
-        if payload.guild_id == guildid:
-            if payload.channel_id == channelid:
-                if payload.message_id == msgid:
-                    if payload.emoji.name == "✔":
-                        guild = self.bot.get_guild(guildid)
-                        user = guild.get_member(payload.user_id)
-                        role = guild.get_role(roleid)
-                        await user.add_roles(role)
-                        await user.send('I have added the role! You should now get update pings whenever Jonny makes an update. <:hehe:559653967836086274>')
-                        return
-                return
-        else:
-            return
-        
-    @commands.Cog.listener()
-    async def on_raw_reaction_remove(self, payload):
-        if not payload.guild_id:
-            return
-        guildid = 538770375266533408
-        roleid = 561076933920817162
-        channelid = 541560087848681475
-        msgid = 561079911557890048
-        if payload.guild_id == guildid:
-            if payload.channel_id == channelid:
-                if payload.message_id == msgid:
-                    if payload.emoji.name == "✔":
-                        guild = self.bot.get_guild(guildid)
-                        user = guild.get_member(payload.user_id)
-                        role = guild.get_role(roleid)
-                        await user.remove_roles(role)
-                        await user.send('I have removed the role! You should no longer get update pings! <:hehe:559653967836086274>')
-                        return
-                return
-        else:
-            return
-
+                     
 def setup(bot):
     n = Fun(bot)
     bot.add_cog(n)
