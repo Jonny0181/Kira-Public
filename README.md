@@ -24,7 +24,7 @@
 * [Contact](#contact)
 
 ## About The Project
-Kira Miki is a discord bot I have created out of boredum. I have used a lot of old code I've had in the past. But I have re-worked most of the code to work the way I want it to now. Kira has multiple different features. Varying from moderation, music, utility, to fun commands. I'm probably going to be working on this project for quite some time. So I guess whoever is following this and has an instance of thier own is going to get a little annoyed with how many updates I make. :smile: Keep in mind tho, some code you may notice you have maybe seen somewhere before. You may be correct, and you may not be. Some of the code I use in the bot was not technically made by me. I have ajusted some code to work the way I need it to. But I fully do not claim ***all*** of the code as mine.
+Kira Miki is a discord bot I have created out of boredom. I have used a lot of old code I've had in the past. But I have re-worked most of the code to work the way I want it to now. Kira has multiple different features. Varying from moderation, music, utility, to fun commands. I'm probably going to be working on this project for quite some time. So I guess whoever is following this and has an instance of thier own is going to get a little annoyed with how many updates I make. :smile: Keep in mind tho, some code you may notice you have maybe seen somewhere before. You may be correct, and you may not be. Some of the code I use in the bot was not technically made by me. I have ajusted some code to work the way I need it to. But I fully do not claim ***all*** of the code as mine.
 
 ### Built With
 Here you will find some things you will need.
