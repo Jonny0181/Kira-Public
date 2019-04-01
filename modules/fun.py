@@ -6,13 +6,10 @@ import datetime
 import string
 import asyncio
 import json
-import textwrap
-import async_timeout
 from utils import checks
 from lxml.html import fromstring
 from discord.ext import commands
 from random import choice as randchoice
-from PIL import Image, ImageDraw, ImageFont
 
 class Fun(commands.Cog):
     def __init__(self, bot):
