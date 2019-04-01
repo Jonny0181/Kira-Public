@@ -2,7 +2,6 @@ import os
 import glob
 import discord
 import asyncio
-import aiohttp
 import async_timeout
 from utils import checks
 from discord.ext import commands
