@@ -2,3 +2,5 @@ prefix: 'DESIRED_PREFIX'
 token: 'BOT_TOKEN'
 botid: YOUR_BOTS_ID
 ownerid: YOUR_ID
+spotify_client_id: 'YOUR_SPOTIFY_CLIENT_ID'
+spotify_client_secret: 'YOUR_SPOTIFY_CLIENT_SECRET'
