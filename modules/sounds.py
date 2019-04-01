@@ -1,13 +1,6 @@
-import os
 import discord
-import motor.motor_asyncio
 from utils import checks
 from discord.ext import commands
-CCYAN = '\33[36m'
-CGREEN = '\33[32m'
-CYELLOW = '\33[33m'
-CRED = '\33[31m'
-CEND = '\33[0m'
 
 class Sounds(commands.Cog):
     def __init__(self, bot):
