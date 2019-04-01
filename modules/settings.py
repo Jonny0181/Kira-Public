@@ -1,17 +1,11 @@
 import discord
 import random
 import asyncio
-import aiohttp
 import os
 from io import BytesIO
 from PIL import Image, ImageFont, ImageOps, ImageDraw
 from utils import checks
 from discord.ext import commands
-from discord import utils as dutils
-from motor.motor_asyncio import AsyncIOMotorClient
-CGREEN = '\33[32m'
-CRED = '\33[31m'
-CEND = '\33[0m'
 
 class Settings(commands.Cog):
     def __init__(self, bot):
