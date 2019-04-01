@@ -23,7 +23,7 @@ __version__ = "2.0.2.9.a"
 class Music(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.config = {"spotify_client_id": "51f8615447044a8bb0068c0c61d16ec1", "spotify_client_secret": "922bbdd2eafb4cd5a4631935f7d0c2a8"}
+        self.config = {"spotify_client_id": self.bot.config['spotify_client_id'], "spotify_client_secret": self.bot.config['spotify_client_secret']}
         self.spotify_token = None
         self.play_lock = []
         self.disconnect_timer = []
@@ -1318,10 +1318,8 @@ class Music(commands.Cog):
         return token["expires_at"] - now < 60
 
     async def _request_token(self):
-        client_id = self.config["spotify_client_id"]
-        client_secret = self.config["spotify_client_secret"]
         payload = {"grant_type": "client_credentials"}
-        headers = self._make_token_auth(client_id, client_secret)
+        headers = self._make_token_auth(self.bot.config["spotify_client_id"], self.bot.config["spotify_client_secret"])
         r = await self._make_post("https://accounts.spotify.com/api/token", payload=payload, headers=headers)
         return r
 
