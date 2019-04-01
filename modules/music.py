@@ -23,7 +23,6 @@ __version__ = "2.0.2.9.a"
 class Music(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.config = {"spotify_client_id": self.bot.config['spotify_client_id'], "spotify_client_secret": self.bot.config['spotify_client_secret']}
         self.spotify_token = None
         self.play_lock = []
         self.disconnect_timer = []
