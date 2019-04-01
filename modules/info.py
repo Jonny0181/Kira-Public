@@ -3,11 +3,9 @@ import discord
 import humanize
 import psutil
 import asyncio
-import aiohttp
 import datetime
 import os
 import base64
-import math
 import platform
 import speedtest
 import subprocess
