@@ -4,10 +4,8 @@ import asyncio
 import datetime
 from datetime import timedelta
 from discord.ext import commands
-from discord import utils as dutils
 from utils import checks
 from utils.mod import mass_purge, slow_deletion
-from motor.motor_asyncio import AsyncIOMotorClient
 
 class Mod(commands.Cog):
     def __init__(self, bot):
