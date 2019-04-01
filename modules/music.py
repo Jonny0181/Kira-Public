@@ -1,21 +1,12 @@
 import asyncio
-import base64
-import contextlib
 import heapq
-import humanize
-import logging
 import math
-import os
 import re
 import time
-from collections import OrderedDict
-
-import aiohttp
 import discord
 import lavalink
-import motor.motor_asyncio
 from discord.ext import commands
-from datetime import datetime, timedelta
+from datetime import datetime
 from utils import checks
 
 CCYAN = '\33[36m'
