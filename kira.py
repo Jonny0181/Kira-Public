@@ -37,12 +37,11 @@ with open('config.yml') as data:
 async def _prefix(bot, msg):
     if not msg.guild:
         return ['k.', 'K.']
-    base = ['<@!538344287843123205> ', '<@538344287843123205> ', bot.config['prefix']]
+    base = [f'<@!{bot.config['botid']}> ', f'<@{bot.config['botid']}> ', bot.config['prefix']]
     try:
         settings = await bot.db.settings.find_one({'guild_id': msg.guild.id})
         if settings['prefix'] is not None:
-            base = ['<@!538344287843123205> ', '<@538344287843123205> ']
-            base.append(settings['prefix'])
+            base = [f'<@!{bot.config['botid']}> ', f'<@{bot.config['botid']}> ', settings['prefix']]
     except:
         welp = {
             "guild_id": msg.guild.id,
