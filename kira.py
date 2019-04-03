@@ -81,6 +81,7 @@ class KiraMiki(commands.AutoShardedBot):
     def __init__(self):
         super().__init__(command_prefix=_prefix, description='',
                         pm_help=None, case_insensitive=True)
+        self.version = "v1.1.12"
         self.stats = {}
         self.sniped = []
         self.config = config
