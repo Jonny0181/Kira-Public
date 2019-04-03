@@ -29,7 +29,7 @@ Kira Miki is a discord bot I have created out of boredom. I have used a lot of o
 ### Built With
 Here you will find some things you will need.
 * [Lavalink.py](https://github.com/JonnyBoy2000/Lavalink.py)
-* [Lavlink.jar](https://github.com/Frederikam/Lavalink)
+* [Lavalink.jar](https://github.com/Frederikam/Lavalink)
 * [Discord.py Rewrite](https://github.com/Rapptz/discord.py/)
 * [Python3.6+](https://www.python.org/)
 * [MongoDb](https://docs.mongodb.com/)
@@ -63,9 +63,9 @@ cd Kira-Public
 ```sh
 sudo python3.6 -m pip install -r requirements.txt
 ```
-8) Rename `config_exmaple.yml` to `config.yml` and set prefix as the prefix you want, and token as your bots token.
+8) Rename `config_example.yml` to `config.yml` and set prefix as the prefix you want, and token as your bots token.
 ```sh
-mv config_exmaple.yml config.yml
+mv config_example.yml config.yml
 ```
 9) Run this command to download the Lavalink.jar file.
 ```sh
