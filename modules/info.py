@@ -374,7 +374,7 @@ class Info(commands.Cog):
         e.add_field(name="Date created:", value=cdate)
         e.add_field(name="Code Information:", value=code)
         e.set_thumbnail(url=self.bot.user.avatar_url)
-        e.set_author(name=ctx.author.name, icon_url=ctx.author.avatar_url)
+        e.set_author(name=f"Kira Miki {self.bot.version}", icon_url=ctx.author.avatar_url)
         await ctx.send(embed=e)
 
     @commands.command()
