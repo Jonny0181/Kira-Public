@@ -44,7 +44,7 @@ Read to install and setup? No problem! That's what this part of the page is for.
 3) Install and setup mongodb you can do so here.
 ```
 Windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
-Linux: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+Ubuntu: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 Others: There is a list at the top of the page. (https://docs.mongodb.com/manual/tutorial/)
 ```
 4) You're going to need a Spotify api key for the music module.
